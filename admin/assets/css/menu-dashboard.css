@@ -1,0 +1,121 @@
+table.daext-items .icons-container{
+    width: 24px !important;
+    min-width: 24px !important;
+}
+
+.interlinks-container{
+    width: calc(100% - 300px);
+    float: left;
+}
+.dashboard{
+    width: 100%;
+    float: left;
+}
+.ila-statistic h2 {
+    font-size: 14px;
+    background: #fafafa;
+    border-bottom: 1px solid #eee;
+    padding: 8px;
+    margin: 0;
+    line-height: 1.4;
+}
+.ila-statistic .inside {
+    padding: 0 12px 12px;
+    line-height: 1.4;
+    font-size: 13px;
+    margin: 11px 0;
+    position: relative;
+}
+.ila-statistic .divide {
+    border-top: 1px solid #eee;
+    margin-top: 15px;
+    padding: 15px 0 0;
+}
+.ila-statistic .badge {
+    display: inline-block;
+    min-width: 2.1em;
+    padding: 0.3em;
+    border-radius: 50%;
+    font-size: .6rem;
+    text-align: center;
+    color: #ff8800;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.sidebar-container{
+    margin-left: 20px;
+    float: right;
+    width: 280px;
+}
+
+#ajax-loader{
+    display: none;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+table.daext-items th:nth-child(1),
+table.daext-items td:nth-child(1){
+    max-width:250px;
+}
+table.daext-items th:nth-child(2),
+table.daext-items td:nth-child(2){
+    max-width:100px;
+}
+
+table.daext-items th:nth-child(6),
+table.daext-items td:nth-child(6){
+    max-width:50px;
+}
+table.dash_table th:nth-child(1), 
+table.dash_table td:nth-child(1), 
+table.dash_table th:nth-child(2), 
+table.dash_table td:nth-child(2) {
+    max-width: 328px;
+}
+#filter-and-sort #filter-and-sort-search{
+    width: 100%;
+}
+
+#filter-and-sort .chosen-container{
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#filter-and-sort select{
+    /*visibility: hidden;*/
+}
+
+.hiddenRow {
+    padding: 0 4px !important;
+    background-color: #eeeeee;
+    font-size: 13px;
+}
+
+.accordian-body span{
+    color:#a2a2a2 !important;
+}
+
+.dct{
+    display: none;
+}
+.inside h3{
+    color: #ff8800;
+}.ila-row h2{
+    color: #43699f;
+
+}#frmSaveSettings {
+    padding: 40px;
+    background: #fff;
+    border-radius: 5px;
+}
+.help-icon
+{
+    background: url(../img/help-f7f7f7.png) 0 0 no-repeat !important;
+    width: 20px !important;
+    height: 20px !important;
+    margin: 4px 0 4px 4px;
+    display: inline-block;
+}.help-icon{
+    display: none!important;
+}

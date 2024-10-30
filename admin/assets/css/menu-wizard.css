@@ -1,0 +1,49 @@
+/* set center alignment to the table cells */
+#ila-table td,
+#ila-table textarea {
+    text-align: center;
+}
+
+#ila-table textarea:focus {
+    background: #0075a5 !important;
+    color: #fff !important;
+}
+
+/* Handsontable rows border color */
+#ila-table .ht_master tr > td {
+    border-color: #dddddd !important;
+    color: #333;
+}
+
+/* Different background for the cells of the first row */
+#ila-table .ht_master tr:first-child > td {
+    background: #f7f7f7;
+}
+
+#ila-table .ht_master tr > td:first-child {
+    width: 20% !important;
+}
+
+#ila-table .ht_master tr > td:last-child {
+    width: 80% !important;
+}
+
+#ila-table .wtSpreader table.htCore {
+    table-layout: auto !important;
+    width: 511px !important;
+    overflow-x: auto !important;
+    overflow-y: auto !important;
+}
+
+#ila-table .wtBorder {
+    background-color: #0075a5 !important;
+}
+
+#ila-table {
+    height: 346px;
+    overflow: hidden;
+}
+
+#ila-table .wtHider{
+    max-width: 511px !important;
+}

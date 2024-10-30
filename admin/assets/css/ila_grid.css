@@ -1,0 +1,71 @@
+.ila-row {
+	clear: both;
+	min-height: 20px;
+	display: inline-block;
+	min-width: 100%;
+}
+
+.ila-row div[class^=col-] {
+	box-sizing: border-box;
+	float: left;
+	padding: 5px;
+}
+
+.ila-row div[class^=col-]:first-child {
+	padding-left: 0;
+}
+
+.ila-row div[class^=col-]:last-child {
+	padding-right: 0;
+}
+
+.ila-row div[class^=col-].no-top-padding {
+	padding-top: 0;
+}
+
+.ila-row .col-12 {
+	width: 100%;
+}
+
+.ila-row .col-10 {
+	width: 83.33333%;
+}
+
+.ila-row .col-9 {
+	width: 75%;
+}
+
+.ila-row .col-8 {
+	width: 66.66667%;
+}
+
+.ila-row .col-7 {
+	width: 58.33333%;
+}
+
+.ila-row .col-6 {
+	width: 50%;
+}
+
+.ila-row .col-5 {
+	width: 41.66667%;
+}
+
+.ila-row .col-4 {
+	width: 33.33333%;
+}
+
+.ila-row .col-3 {
+	width: 25%;
+}
+
+.ila-row .col-2 {
+	width: 16.66667%;
+}
+
+@media only screen and (max-width:768px) {
+	.ila-row div[class^=col-] {
+		width: 100%;
+		padding: 0;
+	}
+}
